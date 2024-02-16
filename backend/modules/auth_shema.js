@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 
 const Auth_shema = new mongoose.Schema({
-    username: {
+    userName: {
         type: String,
         required: true,
         unique: true
